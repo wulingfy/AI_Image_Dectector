@@ -35,7 +35,7 @@ def predict_image(image_path):
     return LABEL_MAPPING[predicted_class], confidence
 
 
-image_path = 'C:/Users/ThinkPad/Desktop/AI_Learning/image/AI.Webp'
+image_path = 'IMG/PATH'
 label, confidence = predict_image(image_path)
 
 print(f'Author: {label}')
